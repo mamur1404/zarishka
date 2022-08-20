@@ -1,0 +1,684 @@
+@media (max-width:1440px) {
+    .text-limited:hover {
+        -webkit-line-clamp: unset;
+    }
+}
+
+/* @media (max-width:1366px) {} */
+@media (max-width:1320px) {
+
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width:1290px) {
+
+    .container {
+        max-width: 1210px;
+    }
+
+}
+
+@media (max-width:1140px) {
+
+    .container {
+        max-width: 1080px;
+    }
+
+    .projects__box {
+        width: 355px;
+    }
+
+    .projects__boxs {
+        column-gap: 20px;
+    }
+
+    .service__boxs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service__box {
+        margin-top: 45px;
+    }
+
+    .service__line {
+        margin-right: 60px;
+    }
+
+    .service__line2 {
+        display: none;
+    }
+
+    .more__boxs {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .projects__box {
+        width: 325px;
+    }
+
+    .team__cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team__card {
+        margin: 80px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .projects__box {
+        width: 310px;
+    }
+
+}
+
+@media (max-width:850px) {
+
+    .container {
+        max-width: 805px;
+    }
+
+    .nav__list-link {
+        margin-right: 40px;
+    }
+
+    .header__content-titel {
+        font-size: 60px;
+    }
+
+    .service__line {
+        display: none;
+    }
+
+    .projects__boxs {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 60px;
+        row-gap: 70px;
+        margin-top: 55px;
+    }
+
+    .projects__box {
+        width: 372px;
+    }
+
+    .team__card {
+        margin: 80px 45px;
+    }
+
+    .round__box-txt {
+        padding-top: 12px;
+    }
+
+
+    .sm1 {
+        top: 95px;
+        left: -250px;
+        /* position: absolute; */
+    }
+
+    .sm2 {
+        top: -70px;
+        left: 0;
+        /* position: absolute; */
+    }
+
+    .md1 {
+        top: 80px;
+        left: 265px;
+    }
+
+    .md2 {
+        top: 430px;
+        left: -215px;
+    }
+
+    .md3 {
+        top: 455px;
+        left: 210px;
+    }
+
+    .txt1 {
+        top: 245px;
+        left: 200px;
+        width: 280px;
+        height: 120px;
+    }
+
+    .txt2 {
+        width: 280px;
+        height: 120px;
+        top: 625px;
+        left: 150px;
+    }
+
+    .txt3 {
+        top: 600px;
+        left: -280px;
+        width: 280px;
+        height: 120px;
+    }
+
+    .txt4 {
+        top: 250px;
+        left: -315px;
+        width: 280px;
+        height: 120px;
+    }
+
+    .txt5 {
+        width: 280px;
+        height: 120px;
+        left: -55px;
+    }
+
+    .txt6 {
+        top: 80px;
+        left: -70px;
+        width: 280px;
+        height: 120px;
+    }
+
+    .span2 {
+        top: 145px;
+        left: 0;
+    }
+
+    .span4 {
+        top: 420px;
+        left: 220px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .title {
+        font-size: 35px;
+    }
+
+    .menu-burger {
+        display: block;
+    }
+
+    .menu__content {
+        display: block;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__btn-link {
+        display: none;
+    }
+
+    .header__content-titel {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .header__content-txt {
+        margin-bottom: 60px;
+    }
+
+    .projects__boxs {
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+
+    .projects__box {
+        width: 340px;
+    }
+
+    .team__card {
+        border: 1px solid #444;
+    }
+
+    .sm1 {
+        left: -210px;
+    }
+
+    .md1 {
+        left: 225px;
+    }
+
+    .txt1 {
+        left: 165px;
+    }
+
+    .txt4 {
+        left: -280px;
+    }
+
+}
+
+@media (max-width:736px) {}
+
+/* @media (max-width:734px) {} */
+@media (max-width:684px) {
+
+    .container {
+        max-width: 634px;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__content-titel {
+        text-align: center;
+    }
+
+    .header__content-txt {
+      text-align: center;
+    }
+
+    .header__content-img {
+        width: 500px;
+        transition: .4s;
+    }
+
+    .header__content-banner {
+        transition: .4s;
+    }
+
+    .header__content-banner:hover {
+        transform: translateY(-25px);
+    }
+
+    .team__card {
+        margin: 35px 25px;
+    }
+
+    .projects__box {
+        width: 300px;
+    }
+
+    .sm1 {
+        top: 135px;
+        left: -150px;
+    }
+
+    .sm2 {
+        top: 20px;
+    }
+
+    .md1 {
+        top: 115px;
+        left: 175px;
+    }
+
+    .md2 {
+        top: 380px;
+        left: -150px;
+    }
+
+    .md3 {
+        top: 370px;
+        left: 145px;
+    }
+
+    .txt1 {
+        top: 280px;
+        left: 110px;
+    }
+
+    .txt2 {
+        top: 535px;
+        left: 85px;
+    }
+
+    .txt3 {
+        top: 550px;
+        left: -215px;
+    }
+
+    .txt4 {
+        top: 290px;
+        left: -220px;
+    }
+
+    .txt6 {
+        top: 170px;
+    }
+
+    .span1 {
+        left: -60px;
+    }
+
+    .span2 {
+        top: 190px;
+        left: 20px;
+    }
+
+    .span3 {
+        left: 120px;
+    }
+
+    .span4 {
+        top: 300px;
+        left: 200px;
+    }
+
+    .footer__text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__2021 {
+        margin-bottom: 25px;
+    }
+
+    .mark {
+        display: inline-block;
+        padding: 10px 0;
+        margin: 15px 0; 
+    }
+}
+
+@media (max-width:667px) {}
+
+@media (max-width:576px) {
+
+
+    .projects__boxs {
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+
+    .projects__box {
+        width: 260px;
+    }
+
+    .projects__img {
+        width: 80%;
+    }
+
+    .sm1 {
+        width: 110px;
+        height: 110px;
+    }
+    .sm2 {
+        width: 110px;
+        height: 110px;
+    }
+
+    .md1 {
+        width: 120px;
+        height: 120px;
+    }
+    .md2 {
+        width: 120px;
+        height: 120px;
+    }
+    .md3 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mx {
+        width: 140px;
+        height: 140px;
+    }
+
+    .txt1 {
+        top: 250px;
+        left: 143px;
+    }
+
+    .txt2 {
+        top: 505px;
+        left: 111px;
+    }
+
+    .txt3 {
+        top: 515px;
+        left: -185px;
+    }
+
+    .txt4 {
+        top: 270px;
+        left: -181px;
+    }
+
+    .txt5 {
+        top: 395px;
+        left: -35px;
+    }
+
+    .txt6 {
+        top: 140px;
+        left: -40px;
+    }
+
+    .round__box-text {
+        width: 190px;
+        height: 120px;
+    }
+}
+
+@media (max-width:414px) {
+
+    .container {
+        max-width: 394px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .header__content-img {
+        width: 370px;
+    }
+
+    .header__content-titel {
+        font-size: 30px;
+    }
+
+    .header__content-txt {
+        font-size: 16px;
+    }
+
+    .projects__boxs {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+
+    .projects__box {
+        width: 370px;
+    }
+
+    .projects__img {
+        width: 100%;
+    }
+
+    .sm1 {
+        top: 140px;
+        left: -100px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .sm2 {
+        top: -130px;
+        left: -70px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .md1 {
+        top: 160px;
+        left: 90px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .md2 {
+        top: 710px;
+        left: -100px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .md3 {
+        top: 630px;
+        left: 100px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .mx {
+        width: 170px;
+        height: 170px;
+        top: 450px;
+        left: -65px;
+    }
+
+    .txt1 {
+        top: 330px;
+        left: 0;
+    }
+
+    .txt2 {
+        top: 796px;
+        left: 20px;
+    }
+
+    .txt3 {
+        top: 865px;
+        left: -100px;
+    }
+
+    .txt5 {
+        top: 640px;
+        left: -100px;
+    }
+
+    .txt4 {
+        top: 295px;
+        left: -102px;
+    }
+
+    .txt5 {
+        top: 610px;
+    }
+
+    .txt6 {
+        top: 35px;
+    }
+
+    .span1 {
+        top: 460px;
+        left: 110px;
+    }
+
+    .span2 {
+        top: 365px;
+        left: -40px;
+    }
+
+    .span3 {
+        top: 150px;
+        left: 80px;
+    }
+
+    .span4 {
+        top: 800px;
+        left: 80px;
+    }
+
+    .footer__text-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+/* @media (max-width:412px) {} */
+@media (max-width:375px) {
+
+    .more__box {
+        width: 300px;
+    }
+
+    .projects__box {
+        width: 330px;
+    }
+
+    .txt5 {
+        top: 630px;
+    }
+
+    .footer__contact-link {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:360px) {
+
+    .header__content-titel {
+        line-height: 40px;
+    }
+
+}
+@media (max-width:320px) {
+
+    .header__content-img {
+        width: 320px;
+    }
+
+    .projects__box {
+        width: 305px;
+    }
+
+    .md2 {
+        left: -75px;
+    }
+
+    .md3 {
+        left: 75px;
+    }
+
+    .txt3 {
+        left: -65px;
+    }
+
+    .txt5 {
+        left: -55px;
+    }
+
+}
